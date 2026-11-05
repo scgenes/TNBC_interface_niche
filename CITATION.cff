@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "TNBC interface-niche spatial analysis"
+abstract: "Analysis code for the C1Q+ TAM-MMP11+ CAF spatial niche at the tumour-immune interface of triple-negative breast cancer."
+authors:
+  - family-names: "Author"
+    given-names: "First"
+    # Update with the full author list.
+version: 1.0.0
+date-released: "2026-11-04"
+license: MIT
+repository-code: "https://github.com/scgenes/TNBC_interface_niche"
+keywords:
+  - triple-negative breast cancer
+  - spatial transcriptomics
+  - tumour-associated macrophages
+  - cancer-associated fibroblasts
+  - tumour-immune interface

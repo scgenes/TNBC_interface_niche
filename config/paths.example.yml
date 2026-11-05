@@ -1,0 +1,23 @@
+# Path configuration example.
+# The scripts contain the placeholders /path/to/project and /path/to/data.
+# Replace them with the local roots below before running.
+
+project_root: /path/to/project
+# Expected subdirectories:
+#   ${project_root}/project_singlecell/TNBC_result
+#   ${project_root}/project_spatial/TNBC
+
+data_root: /path/to/data
+# Expected subdirectories:
+#   ${data_root}/scRNA
+#   ${data_root}/visium
+#   ${data_root}/intermediate
+
+project_singlecell_root: /path/to/project/project_singlecell/TNBC_result
+patient_all_root: /path/to/project/project_spatial/TNBC/patient_ALL
+figure_ai_root: /path/to/project/project_spatial/FigureAI
+spatial_root: /path/to/data/三阴性乳腺癌分析/data
+# Bulk survival analysis (Figure S6)
+survival_root: /path/to/project/project_spatial/TNBC/survival
+# Expected: brca_tcga/, brca_metabric/, geo/GSE58812/, geo/GSE21653/
+paper_figure_dir: /path/to/project/project_spatial/paper/Figure/submission

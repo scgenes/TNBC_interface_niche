@@ -1,0 +1,55 @@
+name: tnbc-interface-niche
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.3.3
+  - r-seurat=4.4.0
+  - r-seuratobject=4.1.4
+  - r-harmony=1.2.3
+  - bioconductor-spacexr=2.2.1
+  - bioconductor-infercnv=1.22.0
+  - bioconductor-banksy=0.99.13
+  - r-cellchat=2.1.2
+  - r-nichenetr=2.2.1
+  - r-fnn=1.1.4.1
+  - r-ggplot2=3.5.2
+  - r-survival=3.8.3
+  - r-survminer=0.5.0
+  - r-maxstat=0.7.26
+  - bioconductor-gsva=1.50.0
+  - r-limma
+  - r-data.table
+  - r-ggsci
+  - r-magick
+  - r-qpdf
+  - r-png
+  - r-rcolorbrewer
+  - r-qs
+  - r-matrix
+  - r-tibble
+  - r-ggrepel
+  - r-viridisLite
+  - r-nmf
+  - r-ggalluvial
+  - r-dplyr
+  - r-tidyr
+  - r-patchwork
+  - r-mclust
+  - r-ape
+  - r-circlize=0.4.16
+  - bioconductor-complexheatmap=2.18.0
+  - bioconductor-singlecellExperiment
+  - bioconductor-scater
+  - python=3.10
+  - squidpy=1.2.2
+  - scanpy
+  - anndata
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyterlab
+# Exact versions used in the analysis are listed in environment/sessionInfo.txt.
+# Some pins may need to be relaxed depending on the conda/bioconductor snapshot.

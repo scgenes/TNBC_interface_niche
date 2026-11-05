@@ -1,0 +1,4 @@
+cell_type,n_tested,n_excluded_tech,n_excluded_ig,n_after_excl,n_top20_pct_ge_025,top20_min_pct
+C1Q TAMs,20456,114,59,20283,19,0.201
+SPP1 TAMs,20456,114,59,20283,15,0.101
+MMP11 CAFs,18977,114,50,18813,19,0.12
